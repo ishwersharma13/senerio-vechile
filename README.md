@@ -1,4 +1,5 @@
-# `Scenario And Vehicle CRUD Application`
+
+# `Scenario And Vehicle CRUD Application
 
 ## About the project
 
@@ -8,35 +9,34 @@ The application can create, display, update, and delete scenarios and vehicles. 
 
 On the Home page, users can select the scenarios they have created and start the simulation. When the user clicks the play button, vehicles starts moving based on the direction and speed until the scenario time is over.
 
-The scenario have following fields:
+The scenario has the following fields:
 - Scenario id
 - Scenario name
 - Time
 
-The Vehicle have following fields:
+The Vehicle has the following fields:
 - Vehicle id
 - Vehicle name
 - Initial Position X
 - Initial Position Y
 - Speed 
-- Direction (can have only Towards, Backwards, Upwards and Downwards).
+- Direction (can have only Towards, Backwards, Upwards, and Downwards).
 
-json-server is used for storing data use.
+json-server is used for storing data used.
 
-For animation I have used Framer motion library.
+For animation, I have used the Framer motion library.
 
 ## Live project link
 
 https://scenario-vehicle-debz.netlify.app/
 
+
 ## Preview
 
-![image](https://user-images.githubusercontent.com/67649413/225752761-d4548a20-cf53-46a1-9225-d18519f50c5f.png)
-![image](https://user-images.githubusercontent.com/67649413/225752844-302ca0dc-8c7a-4117-b91e-df04729d2940.png)
-![image](https://user-images.githubusercontent.com/67649413/225753003-a0393823-927a-491f-8353-94d2363507fb.png)
-![image](https://user-images.githubusercontent.com/67649413/225753174-599358a0-4619-4f7b-b60d-dade2a7f7494.png)
-![image](https://user-images.githubusercontent.com/67649413/225753206-790208c8-9d07-4ab8-b6aa-794bda3380bc.png)
-![image](https://user-images.githubusercontent.com/67649413/225753249-227e532e-3229-48d4-92c6-de5eb9014949.png)
+![Screenshot (471)](https://github.com/ishwersharma13/senerio-vechile/assets/103954615/57a5dcd8-50d6-45ec-b80b-abdd7d0d344b)
+![Screenshot (472)](https://github.com/ishwersharma13/senerio-vechile/assets/103954615/ea595488-c3c1-4726-b431-180c125c9b1b)
+![Screenshot (473)](https://github.com/ishwersharma13/senerio-vechile/assets/103954615/1e5793f4-61ad-4578-82a0-138c053cf482)
+![Screenshot (471)](https://github.com/ishwersharma13/senerio-vechile/assets/103954615/70555fb5-888d-4c1b-b53c-7a4f96979a09)
 
 ## `Tools Used`
 
