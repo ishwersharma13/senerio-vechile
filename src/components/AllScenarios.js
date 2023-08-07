@@ -8,7 +8,7 @@ import ScenarioItemBtn from "./ScenarioItemBtn";
 function AllScenarios() {
   const [scenarios, setScenarios] = useState([]);
   const [isRefresh, setIsRefresh] = useState(false);
-  const appUrl = 'process.env.PORT';
+  const appUrl = 'http://localhost:3000';
 
   useEffect(() => {
     axios.get(`${appUrl}/scenarios`).then((response) => {

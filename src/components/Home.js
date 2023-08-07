@@ -15,7 +15,7 @@ function Home() {
   const [vehicles, setVehicles] = useState([]);
   const [simulate, setSimulate] = useState(false);
 
-  const appUrl = "process.env.PORT";
+  const appUrl = "http://localhost:3000";
   const [isRefresh, setIsRefresh] = useState(false);
   const [refreshRequireVehicles, setRefreshRequireVehicles] = useState(false);
   const [requiredVehicles, setRequiredVehicles] = useState([]);
