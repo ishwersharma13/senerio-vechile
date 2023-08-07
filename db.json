@@ -1,0 +1,71 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "name": "Scenario 1",
+      "time": "1",
+      "vehicles": []
+
+    },
+    {
+      "id": 2,
+      "name": "Scenario 2",
+      "time": "6",
+      "vehicles": [1,2]
+
+    },
+    {
+      "id": "890",
+      "name": "dvvbvfd",
+      "time": "6",
+      "vehicles": [1,3]
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "912",
+      "name": "maruti",
+      "speed": "5",
+      "positionX": "3",
+      "positionY": "66",
+      "direction": "backwards",
+      "scenarioId": "1"
+    },
+    {
+      "id": "417",
+      "name": "maruti",
+      "speed": "20",
+      "positionX": "74",
+      "positionY": "97",
+      "direction": "backwards",
+      "scenarioId": "890"
+    },
+    {
+      "id": "789",
+      "name": "maruti",
+      "speed": "5",
+      "positionX": "7",
+      "positionY": "10",
+      "direction": "upwards",
+      "scenarioId": "890"
+    },
+    {
+      "id": "486",
+      "name": "maruti",
+      "speed": "5",
+      "positionX": "10",
+      "positionY": "10",
+      "direction": "towards",
+      "scenarioId": "890"
+    },
+    {
+      "id": "100",
+      "name": "maruti",
+      "speed": "4",
+      "positionX": "9",
+      "positionY": "10",
+      "direction": "upwards",
+      "scenarioId": "890"
+    }
+  ]
+}
