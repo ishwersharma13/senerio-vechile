@@ -15,7 +15,7 @@ function ScenarioItem(props) {
   const [time, setTime] = useState(props.scenario.time);
   const [prevName, setPrevName] = useState(props.scenario.name);
   const [prevTime, setPrevTime] = useState(props.scenario.time);
-  const appUrl = "http://localhost:8000";
+  const appUrl = "process.env.PORT";
 
   console.log(props.scenario.id);
 

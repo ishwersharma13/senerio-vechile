@@ -28,7 +28,7 @@ function AddVehiclesForm() {
   ];
   const location = useLocation();
   const [scenarios, setScenarios] = useState([]);
-  const appUrl = 'http://localhost:8000';
+  const appUrl = 'process.env.PORT';
   const defaultScenarioId = location.state ? location.state.id : '';
 
   console.log(scenarios[0]);
