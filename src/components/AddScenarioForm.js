@@ -6,7 +6,7 @@ import { Form } from 'semantic-ui-react';
 import { useForm } from "react-hook-form";
 
 function AddScenarioForm() {
-  const appUrl = process.env.PORT_URL;
+  const appUrl = 'http://localhost:3001';
 
   const { 
     register, handleSubmit, resetField, formState: { errors, dirtyFields, isValid, isSubmitted, isSubmitSuccessful } 
