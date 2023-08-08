@@ -15,7 +15,7 @@ function Home() {
   const [vehicles, setVehicles] = useState([]);
   const [simulate, setSimulate] = useState(false);
 
-  const appUrl = "http://localhost:3000";
+  const appUrl = "https://jsonserver-g7gt.onrender.com";
   const [isRefresh, setIsRefresh] = useState(false);
   const [refreshRequireVehicles, setRefreshRequireVehicles] = useState(false);
   const [requiredVehicles, setRequiredVehicles] = useState([]);

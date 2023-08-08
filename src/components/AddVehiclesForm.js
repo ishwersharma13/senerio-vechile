@@ -28,7 +28,7 @@ function AddVehiclesForm() {
   ];
   const location = useLocation();
   const [scenarios, setScenarios] = useState([]);
-  const appUrl = 'http://localhost:3000';
+  const appUrl = 'https://jsonserver-g7gt.onrender.com';
   const defaultScenarioId = location.state ? location.state.id : '';
 
   console.log(scenarios[0]);

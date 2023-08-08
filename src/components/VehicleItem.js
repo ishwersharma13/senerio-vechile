@@ -12,7 +12,7 @@ function VehicleItem(props) {
     const [positionXPrev, setPositionXPrev] = useState(props.vehicle.positionX);
     const [positionYPrev, setPositionYPrev] = useState(props.vehicle.positionY);
     const [directionPrev, setDirectionPrev] = useState(props.vehicle.direction);
-    const appUrl = "http://localhost:3000";
+    const appUrl = "https://jsonserver-g7gt.onrender.com";
 
     const editVehicle = (data) => {
         if(data.vehicleName !== namePrev || data.vPositionX !== positionXPrev || data.vPositionY !== positionYPrev || data.vDirection !== directionPrev || data.vSpeed !== speedPrev) {

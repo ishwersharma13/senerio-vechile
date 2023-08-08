@@ -8,7 +8,7 @@ import ScenarioItemBtn from "./ScenarioItemBtn";
 function AllScenarios() {
   const [scenarios, setScenarios] = useState([]);
   const [isRefresh, setIsRefresh] = useState(false);
-  const appUrl = 'http://localhost:3000';
+  const appUrl = 'https://jsonserver-g7gt.onrender.com';
 
   useEffect(() => {
     axios.get(`${appUrl}/scenarios`).then((response) => {
